@@ -5,9 +5,9 @@ public class stack {
     private int top;
 
     public stack(int size) {
-        this.size = size;
-        arr = new int[size];
-        top = -1;
+       this.size=size;
+       arr= new int[size];
+       top=-1;
     }
 
     public void push(int element) {
