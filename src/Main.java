@@ -26,5 +26,18 @@ public class Main{
         q1.print();
 
         System.out.println("Front is:"+q1.peek());
+
+        circularQueue c1 = new circularQueue(5);
+        c1.enquee(5);
+        c1.enquee(1);
+        c1.enquee(4);
+        c1.enquee(88);
+        c1.print();
+        c1.dequeue();
+        c1.dequeue();
+        c1.enquee(100);
+        c1.enquee(1002);
+        c1.dequeue();
+        c1.print();
     }
 }
